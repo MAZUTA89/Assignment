@@ -40,7 +40,7 @@ namespace BTS_Assignment.Printing
 
         public async Task PrintEmptyAsync(string path)
         {
-            string copyPath = Path.Combine(Path.GetDirectoryName(path), "copy_" +
+            string copyPath = Path.Combine(PrintConfig.AppDataPath, "copy_" +
                 Path.GetFileName(path));
 
             await Task.Run(() =>
@@ -63,7 +63,7 @@ namespace BTS_Assignment.Printing
 
             string copyPath;
 
-            copyPath = Path.Combine(Path.GetDirectoryName(path), "copy_" +
+            copyPath = Path.Combine(PrintConfig.AppDataPath, "copy_" +
                 Path.GetFileName(path));
 
             await Task.Run(() =>

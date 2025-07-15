@@ -35,6 +35,8 @@ namespace BTS_Assignment.Printing
 
         public static readonly Dictionary<string, object> Tags;
 
+        public static readonly string AppDataPath;
+
         static PrintConfig()
         {
                 Tags = new Dictionary<string, object>
@@ -63,6 +65,8 @@ namespace BTS_Assignment.Printing
                 { ДолжностьПеревозчика, ДолжностьПеревозчика },
                 { ФИОПеревозчика, ФИОПеревозчика }
             };
+
+            AppDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
         }
     }
 }

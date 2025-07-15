@@ -67,7 +67,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>AssignmentLogo.ico</ApplicationIcon>
@@ -209,12 +209,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\DistributedInventory\InventoryDesktopClient\RegistryHelper\RegistryHelper.csproj">
-      <Project>{e386cf0d-72b0-43ff-87ee-37f8414ee142}</Project>
-      <Name>RegistryHelper</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
@@ -233,6 +227,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="AssignmentLogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\RegistryHelper\RegistryHelper.csproj">
+      <Project>{e386cf0d-72b0-43ff-87ee-37f8414ee142}</Project>
+      <Name>RegistryHelper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("BTS-Assignment")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("РУП Белтаможсервис Гомельский филиал")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("BTS-Assignment")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
@@ -51,5 +51,5 @@ using System.Windows;
 // Можно задать все значения или принять номера сборки и редакции по умолчанию 
 // используя "*", как показано ниже:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.3.8.0")]
-[assembly: AssemblyFileVersion("1.3.8.0")]
+[assembly: AssemblyVersion("1.3.10.0")]
+[assembly: AssemblyFileVersion("1.3.10.0")]

@@ -264,7 +264,7 @@ namespace BTS_Assignment
         private void ReferenceMenuItem_Click(object sender, RoutedEventArgs e)
         {
             string copyPath = Path.Combine(
-                Path.Combine(Path.GetDirectoryName(c_ProgramInfoPass),
+                Path.Combine(PrintConfig.AppDataPath,
                 "_copy" + Path.GetFileName(c_ProgramInfoPass)));
 
             try
