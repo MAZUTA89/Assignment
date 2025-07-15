@@ -106,18 +106,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9122EB45BD22D98F41952CF283780071"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_63D2F193F1F94D2883422719AD7D0DB8"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_72E0B501433E422DA14A048303EA6FD0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -137,6 +125,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_9C0AEF5CBD06DF4E5BA5308D28015709"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_9122EB45BD22D98F41952CF283780071"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_63D2F193F1F94D2883422719AD7D0DB8"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -380,7 +380,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:BTS-Assignment, Version=1.3.10.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:BTS-Assignment, Version=1.3.12.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_72E0B501433E422DA14A048303EA6FD0"
@@ -638,15 +638,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Assignment"
-        "ProductCode" = "8:{A27211D7-3AE2-494A-9392-3A64B7AC4401}"
-        "PackageCode" = "8:{20D1D217-D1A7-4BC7-A0DB-870497655179}"
+        "ProductCode" = "8:{68BA7198-E450-4CE9-8EAF-8CF59F0E54A5}"
+        "PackageCode" = "8:{441187C0-9AD6-42A9-AF50-95383CAA4014}"
         "UpgradeCode" = "8:{599152BB-48A1-44B3-B352-F3AA7AB9AC1E}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.3.3"
+        "ProductVersion" = "8:1.3.4"
         "Manufacturer" = "8:Ivan Dubovtsov(Mazuta89)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
