@@ -14,9 +14,6 @@ using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Wordprocessing;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
-using DocumentFormat.OpenXml.Office.CustomUI;
-using RichRun = System.Windows.Documents;
-
 
 namespace BTS_Assignment.Printing
 {
@@ -38,7 +35,7 @@ namespace BTS_Assignment.Printing
 
         public async Task PrintEmptyAsync(string path)
         {
-            string copyPath = Path.Combine(Path.GetDirectoryName(path), "copy_" +
+            string copyPath = Path.Combine(PrintConfig.AppDataPath, "copy_" +
                 Path.GetFileName(path));
 
             await Task.Run(() =>
@@ -59,9 +56,7 @@ namespace BTS_Assignment.Printing
         {
             InitializeTags();
 
-            string copyPath;
-
-            copyPath = Path.Combine(Path.GetDirectoryName(path), "copy_" +
+            string copyPath = Path.Combine(PrintConfig.AppDataPath, "copy_" +
                 Path.GetFileName(path));
 
             await Task.Run(() =>
