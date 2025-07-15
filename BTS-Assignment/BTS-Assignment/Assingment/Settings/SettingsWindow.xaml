@@ -1,0 +1,69 @@
+﻿<Window x:Class="BTS_Assignment.Settings.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BTS_Assignment.Settings"
+        mc:Ignorable="d"
+        Title="Настройки - " Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen" Width="410" Height="364"
+         MinWidth="380" MinHeight="350" MaxWidth="550" MaxHeight="570">
+
+    <Grid Height="Auto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ScrollViewer Grid.Row="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Style="{StaticResource  TextBlockControl}" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="0">Значение номера поручения по умолчанию.</TextBlock>
+                <TextBox  Style="{StaticResource AssignmentTextBox}" VerticalAlignment="Center" x:Name="AssignNumberTextBox" Grid.Row="0" Grid.Column="1"></TextBox>
+                <TextBlock Style="{StaticResource TextBlockControl}" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" >Значение места поручения по умолчанию.</TextBlock>
+                <TextBox Style="{StaticResource AssignmentTextBox}" x:Name="PlaceTextBox" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" ></TextBox>
+                <Label Style="{StaticResource ControlStyle}" Grid.Row="5">Специалист:</Label>
+                <Label Style="{StaticResource ControlStyle}" Grid.Row="6" VerticalAlignment="Center">Ф.И.О</Label>
+                <TextBox Style="{StaticResource AssignmentTextBox}" Grid.Row="6" x:Name="FullNameTextBox"  VerticalAlignment="Center" Grid.Column="1" VerticalContentAlignment="Center" IsEnabled="False"/>
+                <StackPanel Grid.Row="6" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5"/>
+                <Label Style="{StaticResource ControlStyle}" Grid.Row="7" VerticalAlignment="Center" >Должность</Label>
+                <ComboBox Style="{StaticResource ModernComboBox}" x:Name="PostComboBox" Grid.Row="7" Grid.Column="1" 
+          IsTextSearchEnabled ="False" IsEditable="False" VerticalContentAlignment="Center" Margin="5,5,5,0"
+          Background="AntiqueWhite" VerticalAlignment="Center">
+                    <ComboBoxItem>Ведущий специалист по таможенному декларированию</ComboBoxItem>
+                    <ComboBoxItem>Специалист по таможенному декларированию 1 категории</ComboBoxItem>
+                    <ComboBoxItem>Специалист по таможенному декларированию 2 категории</ComboBoxItem>
+                </ComboBox>
+                <Label Grid.Row="8" Style="{StaticResource ControlStyle}">Доверенность №</Label>
+                <TextBox x:Name="TrustNumberTextBox" Grid.Row="8" Grid.Column="1" Style="{StaticResource AssignmentTextBox}" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="9" Style="{StaticResource TextBlockControl}" TextWrapping="Wrap">Добавлять строку "Всего", если товар 1.</TextBlock>
+                <CheckBox Grid.Row="9" x:Name="AddCommonRowCheckBox" Margin="10" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Center"></CheckBox>
+                <TextBlock  Grid.Row="10" TextWrapping="Wrap" Style="{StaticResource TextBlockControl}">Приоритетный перевод кода стран.</TextBlock>
+                <CheckBox x:Name="RuCountriesPriorityCheckBox" Grid.Row="10" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+                <TextBlock x:Name="ApplySettingsToggle" Grid.Row="11" TextWrapping="Wrap" Style="{StaticResource TextBlockControl}">Применить текстовые
+                    настройки к форме сразу после закрытия.</TextBlock>
+                <CheckBox x:Name="ApplySettingCheckBox" Grid.Row="11" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+            </Grid>
+        </ScrollViewer>
+        <Button Style="{StaticResource FunctionalButton}" Template="{DynamicResource FunctionalButtonTemplate}" Grid.Row="2" x:Name="CloseButton"  HorizontalAlignment ="Center" Click="CloseButton_Click" VerticalAlignment="Center">Закрыть</Button>
+    </Grid>
+</Window>

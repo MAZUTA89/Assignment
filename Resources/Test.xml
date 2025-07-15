@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<td:TransitDeclaration xmlns:csdo="urn:EEC:M:SimpleDataObjects:v0.4.14" xmlns:casdo="urn:EEC:M:CA:SimpleDataObjects:v1.8.1" xmlns:cacdo="urn:EEC:M:CA:ComplexDataObjects:v1.8.1" xmlns:ccdo="urn:EEC:M:ComplexDataObjects:v0.4.14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:td="urn:EEC:R:048:TransitDeclaration:v1.0.0" xsi:schemaLocation="urn:EEC:R:048:TransitDeclaration:v1.0.0">
+    <csdo:EDocCode>R.048</csdo:EDocCode>
+    <csdo:EDocId>5A2B8C3D-E4F5-6G7H-8I9J-K1L2M3N4O5P6</csdo:EDocId>
+    <csdo:EDocDateTime>2025-04-07T00:00:00</csdo:EDocDateTime>
+    <casdo:DeclarationKindCode>ТТ</casdo:DeclarationKindCode>
+    <casdo:TransitProcedureCode codeListId="2019">ИМ</casdo:TransitProcedureCode>
+    <casdo:EDocIndicatorCode>ЭД</casdo:EDocIndicatorCode>
+    <casdo:ContainerIndicator>0</casdo:ContainerIndicator>
+    <cacdo:TransportMeansItemDetails>
+        <csdo:ObjectOrdinal>1</csdo:ObjectOrdinal>
+        <csdo:UnifiedTransportModeCode codeListId="2004">31</csdo:UnifiedTransportModeCode>
+        <casdo:RegistrationNationalityCode codeListId="2021">MD</casdo:RegistrationNationalityCode>
+        <csdo:TransportMeansRegId>ABC123</csdo:TransportMeansRegId>
+        <csdo:VehicleId>1ABCDEFG2H3I45678</csdo:VehicleId>
+        <casdo:TransportTypeCode codeListId="2024">307</casdo:TransportTypeCode>
+        <csdo:VehicleMakeCode codeListId="2025">415</csdo:VehicleMakeCode>
+        <csdo:VehicleModelName>MODEL-X</csdo:VehicleModelName>
+        <csdo:DocId>123456789</csdo:DocId>
+    </cacdo:TransportMeansItemDetails>
+    <cacdo:TransportMeansItemDetails>
+        <csdo:ObjectOrdinal>2</csdo:ObjectOrdinal>
+        <csdo:UnifiedTransportModeCode codeListId="2004">31</csdo:UnifiedTransportModeCode>
+        <casdo:RegistrationNationalityCode codeListId="2021">MD</casdo:RegistrationNationalityCode>
+        <csdo:TransportMeansRegId>XYZ789</csdo:TransportMeansRegId>
+        <csdo:VehicleId>2JKLMNOP3Q4R56789</csdo:VehicleId>
+        <casdo:TransportTypeCode codeListId="2024">319</casdo:TransportTypeCode>
+        <csdo:VehicleMakeCode codeListId="2025">414</csdo:VehicleMakeCode>
+        <csdo:VehicleModelName>MODEL-Y</csdo:VehicleModelName>
+        <csdo:DocId>987654321</csdo:DocId>
+    </cacdo:TransportMeansItemDetails>
+    <cacdo:DeclarantDetails>
+        <csdo:SubjectBriefName>ООО "ТАМОЖЕННЫЕ УСЛУГИ"</csdo:SubjectBriefName>
+        <csdo:TaxpayerId>123456789</csdo:TaxpayerId>
+        <ccdo:SubjectAddressDetails>
+            <csdo:AddressKindCode>1</csdo:AddressKindCode>
+            <csdo:UnifiedCountryCode codeListId="2021">BY</csdo:UnifiedCountryCode>
+            <csdo:RegionName>МОГИЛЕВСКАЯ ОБЛ.</csdo:RegionName>
+            <csdo:CityName>Г. МОГИЛЕВ</csdo:CityName>
+            <csdo:StreetName>УЛ. ЛЕНИНА, 1</csdo:StreetName>
+        </ccdo:SubjectAddressDetails>
+        <cacdo:RegisterDocumentIdDetails>
+            <csdo:DocKindCode codeListId="2009">09011</csdo:DocKindCode>
+            <csdo:UnifiedCountryCode codeListId="2021">BY</csdo:UnifiedCountryCode>
+            <casdo:RegistrationNumberId>BY/1234/ТИП1</casdo:RegistrationNumberId>
+            <casdo:AEORegistryKindCode>3</casdo:AEORegistryKindCode>
+        </cacdo:RegisterDocumentIdDetails>
+    </cacdo:DeclarantDetails>
+    <cacdo:TDGoodsShipmentDetails>
+        <csdo:ObjectOrdinal>1</csdo:ObjectOrdinal>
+        <cacdo:TransportDocumentDetails>
+            <csdo:DocKindCode codeListId="2009">02015</csdo:DocKindCode>
+            <csdo:DocId>7890</csdo:DocId>
+            <csdo:DocCreationDate>2025-04-04</csdo:DocCreationDate>
+        </cacdo:TransportDocumentDetails>
+        <casdo:GoodsQuantity>1</casdo:GoodsQuantity>
+        <casdo:CargoQuantity>0</casdo:CargoQuantity>
+        <casdo:DepartureCountryCode codeListId="2021">MD</casdo:DepartureCountryCode>
+        <casdo:DestinationCountryCode codeListId="2021">BY</casdo:DestinationCountryCode>
+        <casdo:TotalAmount currencyCodeListId="2022" currencyCode="EUR">15000.00</casdo:TotalAmount>
+        <cacdo:ConsignorDetails>
+            <csdo:SubjectBriefName>TRADE-EXPORT SRL</csdo:SubjectBriefName>
+            <ccdo:SubjectAddressDetails>
+                <csdo:AddressKindCode>1</csdo:AddressKindCode>
+                <csdo:UnifiedCountryCode codeListId="2021">MD</csdo:UnifiedCountryCode>
+                <csdo:CityName>КИШИНЕВ</csdo:CityName>
+                <csdo:StreetName>УЛ. ШТЕФАН ЧЕЛ МАРЕ, 100</csdo:StreetName>
+            </ccdo:SubjectAddressDetails>
+        </cacdo:ConsignorDetails>
+        <cacdo:ConsigneeDetails>
+            <csdo:SubjectBriefName>ОАО "ВИННЫЙ ЗАВОД"</csdo:SubjectBriefName>
+            <csdo:TaxpayerId>987654321</csdo:TaxpayerId>
+            <ccdo:SubjectAddressDetails>
+                <csdo:AddressKindCode>1</csdo:AddressKindCode>
+                <csdo:UnifiedCountryCode codeListId="2021">BY</csdo:UnifiedCountryCode>
+                <csdo:CityName>Г. ГОМЕЛЬ</csdo:CityName>
+                <csdo:StreetName>УЛ. СОВЕТСКАЯ, 25</csdo:StreetName>
+            </ccdo:SubjectAddressDetails>
+        </cacdo:ConsigneeDetails>
+        <cacdo:TransitDestinationDetails>
+            <ccdo:CustomsOfficeDetails>
+                <csdo:CustomsOfficeCode>11201111</csdo:CustomsOfficeCode>
+                <csdo:CustomsOfficeName>МОГИЛЕВ-СЭЗ</csdo:CustomsOfficeName>
+            </ccdo:CustomsOfficeDetails>
+            <casdo:CustomsControlZoneId>ВЗ01111/0001234</casdo:CustomsControlZoneId>
+        </cacdo:TransitDestinationDetails>
+        <cacdo:TransitGoodsItemDetails>
+            <casdo:ConsignmentItemOrdinal>1</casdo:ConsignmentItemOrdinal>
+            <csdo:CommodityCode>2204299701</csdo:CommodityCode>
+            <casdo:GoodsDescriptionText>ВИНОМАТЕРИАЛ ВИНОГРАДНЫЙ НАТУРАЛЬНЫЙ ДЛЯ ПЕРЕРАБОТКИ</casdo:GoodsDescriptionText>
+            <csdo:UnifiedGrossMassMeasure measurementUnitCodeListId="2064" measurementUnitCode="166">25000.0</csdo:UnifiedGrossMassMeasure>
+            <cacdo:GoodsMeasureDetails>
+                <casdo:GoodsMeasure measurementUnitCodeListId="2064" measurementUnitCode="112">25200.0</casdo:GoodsMeasure>
+            </cacdo:GoodsMeasureDetails>
+            <cacdo:CargoPackagePalletDetails>
+                <casdo:PackageAvailabilityCode>2</casdo:PackageAvailabilityCode>
+                <casdo:CargoQuantity>0</casdo:CargoQuantity>
+                <cacdo:PackagePalletDetails>
+                    <csdo:PackageKindCode codeListId="2013">VL</csdo:PackageKindCode>
+                </cacdo:PackagePalletDetails>
+            </cacdo:CargoPackagePalletDetails>
+            <casdo:CAValueAmount currencyCodeListId="2022" currencyCode="EUR">15000.00</casdo:CAValueAmount>
+            <cacdo:TDPresentedDocDetails>
+                <csdo:DocKindCode codeListId="2009">02015</csdo:DocKindCode>
+                <csdo:DocId>7890</csdo:DocId>
+                <csdo:DocCreationDate>2025-04-04</csdo:DocCreationDate>
+                <casdo:LineId>1</casdo:LineId>
+                <cacdo:DocumentPresentingDetails>
+                    <casdo:DocPresentKindCode>1</casdo:DocPresentKindCode>
+                </cacdo:DocumentPresentingDetails>
+            </cacdo:TDPresentedDocDetails>
+            <cacdo:TDPresentedDocDetails>
+                <csdo:DocKindCode codeListId="2009">04021</csdo:DocKindCode>
+                <csdo:DocId>35</csdo:DocId>
+                <csdo:DocCreationDate>2025-04-04</csdo:DocCreationDate>
+                <casdo:LineId>2</casdo:LineId>
+                <cacdo:DocumentPresentingDetails>
+                    <casdo:DocPresentKindCode>1</casdo:DocPresentKindCode>
+                </cacdo:DocumentPresentingDetails>
+            </cacdo:TDPresentedDocDetails>
+            <cacdo:TDPresentedDocDetails>
+                <csdo:DocKindCode codeListId="2009">09024</csdo:DocKindCode>
+                <csdo:DocId>123456</csdo:DocId>
+                <csdo:DocCreationDate>2024-07-30</csdo:DocCreationDate>
+                <casdo:LineId>3</casdo:LineId>
+                <cacdo:DocumentPresentingDetails>
+                    <casdo:DocPresentKindCode>1</casdo:DocPresentKindCode>
+                </cacdo:DocumentPresentingDetails>
+            </cacdo:TDPresentedDocDetails>
+            <cacdo:TDPresentedDocDetails>
+                <csdo:DocKindCode codeListId="2009">11005</csdo:DocKindCode>
+                <csdo:DocId>ДОК/1234-56-78</csdo:DocId>
+                <csdo:DocCreationDate>2018-02-02</csdo:DocCreationDate>
+                <casdo:LineId>4</casdo:LineId>
+                <cacdo:DocumentPresentingDetails>
+                    <casdo:DocPresentKindCode>0</casdo:DocPresentKindCode>
+                </cacdo:DocumentPresentingDetails>
+            </cacdo:TDPresentedDocDetails>
+        </cacdo:TransitGoodsItemDetails>
+    </cacdo:TDGoodsShipmentDetails>
+    <cacdo:CarrierDetails>
+        <csdo:SubjectBriefName>TRANSPORT-LOGISTIC S.R.L.</csdo:SubjectBriefName>
+        <ccdo:SubjectAddressDetails>
+            <csdo:AddressKindCode>1</csdo:AddressKindCode>
+            <csdo:UnifiedCountryCode codeListId="2021">MD</csdo:UnifiedCountryCode>
+            <csdo:CityName>CHISINAU</csdo:CityName>
+            <csdo:StreetName>STR. MIHAI EMINESCU 15/2</csdo:StreetName>
+        </ccdo:SubjectAddressDetails>
+        <cacdo:CarrierRepresentativeDetails>
+            <ccdo:FullNameDetails>
+                <csdo:FirstName>IVAN</csdo:FirstName>
+                <csdo:LastName>PETROV</csdo:LastName>
+            </ccdo:FullNameDetails>
+            <casdo:RoleCode>1</casdo:RoleCode>
+        </cacdo:CarrierRepresentativeDetails>
+        <casdo:CarrierOrdinal>1</casdo:CarrierOrdinal>
+    </cacdo:CarrierDetails>
+    <cacdo:TransitGuaranteeDetails>
+        <casdo:GuaranteePresentCode>1</casdo:GuaranteePresentCode>
+        <cacdo:TransitGuaranteeDocDetails>
+            <csdo:DocKindCode codeListId="2009">09011</csdo:DocKindCode>
+            <csdo:DocId>BY/1234/ТИП1</csdo:DocId>
+            <csdo:DocCreationDate>2018-03-28</csdo:DocCreationDate>
+        </cacdo:TransitGuaranteeDocDetails>
+    </cacdo:TransitGuaranteeDetails>
+    <cacdo:SignatoryRepresentativeDetails>
+        <cacdo:RegisterDocumentIdDetails>
+            <csdo:DocKindCode codeListId="2009">09034</csdo:DocKindCode>
+            <csdo:UnifiedCountryCode codeListId="2021">BY</csdo:UnifiedCountryCode>
+            <casdo:RegistrationNumberId>ТА-1234/0000567</casdo:RegistrationNumberId>
+        </cacdo:RegisterDocumentIdDetails>
+        <cacdo:RepresentativeContractDetails>
+            <csdo:DocKindCode codeListId="2009">11002</csdo:DocKindCode>
+            <csdo:DocId>ДОК/1234-56-78</csdo:DocId>
+            <csdo:DocCreationDate>2018-02-02</csdo:DocCreationDate>
+        </cacdo:RepresentativeContractDetails>
+    </cacdo:SignatoryRepresentativeDetails>
+    <csdo:EventDate>2025-04-07</csdo:EventDate>
+    <cacdo:SignatoryPersonV2Details>
+        <cacdo:SigningDetails>
+            <ccdo:FullNameDetails>
+                <csdo:FirstName>ЕЛЕНА</csdo:FirstName>
+                <csdo:MiddleName>ИВАНОВНА</csdo:MiddleName>
+                <csdo:LastName>СМИРНОВА</csdo:LastName>
+            </ccdo:FullNameDetails>
+            <csdo:PositionName>СПЕЦИАЛИСТ</csdo:PositionName>
+            <ccdo:CommunicationDetails>
+                <csdo:CommunicationChannelCode>TE</csdo:CommunicationChannelCode>
+                <csdo:CommunicationChannelName>ТЕЛЕФОН</csdo:CommunicationChannelName>
+                <csdo:CommunicationChannelId>+375 29 1234567</csdo:CommunicationChannelId>
+            </ccdo:CommunicationDetails>
+            <casdo:SigningDate>2025-04-07</casdo:SigningDate>
+        </cacdo:SigningDetails>
+        <ccdo:IdentityDocV3Details>
+            <csdo:UnifiedCountryCode codeListId="2021">BY</csdo:UnifiedCountryCode>
+            <csdo:IdentityDocKindCode codeListId="2053">BY01001</csdo:IdentityDocKindCode>
+            <csdo:DocId>MP1234567</csdo:DocId>
+            <csdo:DocCreationDate>2018-08-02</csdo:DocCreationDate>
+        </ccdo:IdentityDocV3Details>
+        <casdo:QualificationCertificateId>04567</casdo:QualificationCertificateId>
+        <cacdo:PowerOfAttorneyDetails>
+            <csdo:DocKindCode codeListId="2009">11004</csdo:DocKindCode>
+            <csdo:DocId>03/4/2023</csdo:DocId>
+            <csdo:DocCreationDate>2023-01-25</csdo:DocCreationDate>
+            <csdo:DocValidityDate>2026-01-24</csdo:DocValidityDate>
+        </cacdo:PowerOfAttorneyDetails>
+    </cacdo:SignatoryPersonV2Details>
+</td:TransitDeclaration>
+
+<!--OUTNUMBER: УЭО ABC123_XYZ789 +++++ -->
+<!--GuaranteeAmount : 60000.0 -->
